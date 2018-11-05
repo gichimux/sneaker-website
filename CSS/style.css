@@ -1,0 +1,93 @@
+.wrapper {
+  background-color: black;
+}
+.navsection {
+  background-image: url(../IMG/header.png), url(../IMG/logo.png);
+  width: 100%;
+  height: 700px;
+}
+
+#header-txt {
+
+}
+#sub-txt{
+
+}
+#img-about {
+padding-top: 10px;
+}
+.products {
+  column-count: 3;
+}
+#productHeader{
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 20px;
+margin: 10px;
+
+}
+a#home {color: red;}
+a#about {color: yellow;}
+a#contact{color: green;}
+a#company{color: purple;}
+
+a#home:hover, #about:hover, #contact:hover, #company:hover{
+  background-color: #555;
+  border-radius: 10px;
+  color: white;
+}
+#img-about, #uno, #dos, #tres {
+  width: 200px;
+  height: 200px;
+}
+.about {
+  column-count: 2;
+  padding-left: 300px;
+  width: 70%;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+/*.flex-container{
+display: flex;
+}*/
+
+#figure1 {width: 100%;}
+
+#figure2 {width: 100%;}
+
+#figure3 {width: 100%;}
+
+#figure4 {width: 80%;}
+
+.grid-container {
+display: grid;
+}
+.grid-item1{
+grid-column-start: 2;
+grid-column-end: 3;
+
+}
+.grid-item2{
+grid-column-start: 3;
+grid-column-end: 4;
+}
+
+.grid-item3{
+grid-column-start:4;
+grid-column-end: 5;
+
+}
+
+#button1 {
+
+}
+#button2{
+
+
+}
